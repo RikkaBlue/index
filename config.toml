@@ -1,0 +1,66 @@
+# Page settings
+
+baseurl = "https://thris.me/hugo"
+languageCode = "zh-cn"
+title = "THRIS.ME"
+copyright = "© Hugo Theme Doors"
+googleAnalytics = "UA-xxxxxxxx-x"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "hugo-theme-doors"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Site information
+[params]
+description = "生于疼痛，或许也会死于疼痛"
+ogimage = "images/blog.jpg"
+
+# Project section
+[params.projects]
+
+[[params.projects.list]]
+title = "个人博客"
+url = "https://blog.thris.me"
+description = "Dame dame "
+image = "images/blog.jpg"
+w = "700"
+h = "518"
+
+# Subproject section
+[params.subprojects]
+
+[[params.subprojects.list]]
+title = "The work 2"
+url = "#"
+description = "Lorem ipsum dolor sit amet"
+image = "images/work2.jpg"
+w = "780"
+h = "522"
+
+[[params.subprojects.list]]
+title = "The work 3"
+url = "#"
+description = "Consectetur adipiscing elit"
+image = "images/work3.jpg"
+w = "780"
+h = "518"
+
+[[params.subprojects.list]]
+title = "The work 4"
+url = "#"
+description = "Sed do eiusmod tempor incididunt"
+image = "images/work4.jpg"
+w = "780"
+h = "518"
+
+# Contact section
+[params.contact]
+description = "I would like to hear from you. Please contact me via email or social media."
+twitter = "#"
+facebook = ""
+linkedin = "#"
+instagram = "#"
+github = ""
+email = "mailto:admin@thris.me"
