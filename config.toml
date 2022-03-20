@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://thris.me/hugo"
+baseurl = "https://thris.me/"
 languageCode = "zh-cn"
 title = "THRIS.ME"
 copyright = "© Hugo Theme Doors"
